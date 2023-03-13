@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Add a movie</title>
+</head>
+<body>
+<form action="#" method="POST" class="pb-1">
+  <div class="form-group">
+    <label>Movie Name</label>
+    <input type="text" name="name" class="form-control" placeholder="Enter movie">
+  </div>
+  <div class="form-group">
+    <label>Rating</label>
+    <input type="text" name = "rating" class="form-control" placeholder="Rating">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Add movie</button>
+    <button  type="button" onclick="window.location.href='/'" class="btn btn-secondary">My Library</button>
+
+
+</form>
+
+
+
+</body>
+</html>
